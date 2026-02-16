@@ -1,6 +1,7 @@
 package com.educandoweb.course.entities;
 
 import jakarta.persistence.*;
+import jdk.jfr.Name;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -27,6 +28,8 @@ public class User implements Serializable {
         this.password = password;
         this.phone = phone;
     }
+
+
 
     public Long getId() {
         return id;
